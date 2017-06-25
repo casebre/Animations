@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/container"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/rocket"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:layout_gravity="bottom|center_horizontal"
+      android:src="@drawable/odometer"/>
+
+  <ImageView
+      android:id="@+id/image_needle"
+      android:layout_marginBottom="12dp"
+      android:layout_marginRight="20dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleType="centerCrop"
+      android:background="@android:color/transparent"
+      android:src="@drawable/needle"
+      android:layout_gravity="bottom|center_horizontal"
+      />
+
+</FrameLayout>
